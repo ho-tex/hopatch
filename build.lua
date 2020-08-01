@@ -5,7 +5,6 @@ module = "hopatch"
 
 installfiles = {
 '*.sty',
-'*.dtx','*.pdf'
 }
 
 
