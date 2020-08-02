@@ -5,8 +5,7 @@
 \input{regression-test}
 \NeedsTeXFormat{LaTeX2e}
 \providecommand\variant{1}
-\RequirePackage{filecontents}
-\begin{filecontents}{foo.sty}
+\begin{filecontents}[overwrite]{foo.sty}
 \ProvidesPackage{foo}
 \def\msg#{\immediate\write16}
 \def\foo#1{%
