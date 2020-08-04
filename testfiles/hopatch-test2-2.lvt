@@ -14,7 +14,7 @@
 \def\fooformat#1{[#1]}% hash-ok
 \foo{* Executing foo at package loading}
 \end{filecontents}
-
+\RequirePackage{expl3}
 \ifnum\variant=1 %
   \documentclass{memoir}%
 \else
