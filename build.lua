@@ -6,6 +6,9 @@ module = "hopatch"
 installfiles = {
 '*.sty',
 }
+
+sourcefiles = {"*.dtx"}
+
 checkruns=2
 
 textfiles = {"README.md"}
