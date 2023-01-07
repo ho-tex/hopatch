@@ -4,7 +4,7 @@ Don't change this file in any respect.
 Package: foo 
 [* Executing foo at package loading]
 )
-[* Executing in preamble]
+<<* Executing in preamble>>
 (hopatch-test2-2.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line ....
 LaTeX Font Info:    ... okay on input line ....
